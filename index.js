@@ -30,7 +30,7 @@ var showCommits = (el) => {
 };
 
 var renderCommits = (commits) => {
-  const commitList = results.map(commit => {
+  const commitList = commits.map(commit => {
     return `
     <ul>
       <li>${commit.sha}</li>
